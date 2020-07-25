@@ -9,7 +9,7 @@ const Project = () => {
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <a href="https://universal-storage.herokuapp.com/">
-                            <img src="./assets/Lock'd.png" className="img-fluid col-12 portfolioImage" alt="Lock'd" />
+                            <img src={process.env.PUBLIC_URL + "/assets/Lock'd.png"} className="img-fluid col-12 portfolioImage" alt="Lock'd" />
                         </a>
                         <div className="carousel-caption d-block bg-dark">
                             <a href="https://github.com/schwynf/Universal-Storage">
@@ -20,7 +20,7 @@ const Project = () => {
 
                     <div className="col-12 col-md-6">
                         <a href="https://nddarnell.github.io/Hungry_or_Bored-Project-1/">
-                            <img src="./assets/Hungryorbored.png" className="img-fluid col-12 portfolioImage" alt="HungryOrBored" />
+                            <img src={process.env.PUBLIC_URL + "/assets/Hungryorbored.png"} className="img-fluid col-12 portfolioImage" alt="HungryOrBored" />
                         </a>
                         <div className="carousel-caption d-block bg-dark">
                             <a href="https://github.com/nddarnell/Hungry_or_Bored-Project-1">
@@ -35,7 +35,7 @@ const Project = () => {
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <a href="https://dttnotetaker.herokuapp.com/">
-                            <img src="./assets/NoteTaker.png" className="img-fluid col-12 portfolioImage"
+                            <img src={process.env.PUBLIC_URL + "/assets/NoteTaker.png"} className="img-fluid col-12 portfolioImage"
                                 alt="NoteTaker" />
                         </a>
 
@@ -48,7 +48,7 @@ const Project = () => {
 
                     <div className="col-12 col-md-6">
                         <a href="https://tongtongding.github.io/06-Server-Side-APIs-HW/">
-                            <img src="./assets/Weatherdashboard.png" className="img-fluid col-12 portfolioImage"
+                            <img src={process.env.PUBLIC_URL +"/assets/Weatherdashboard.png"} className="img-fluid col-12 portfolioImage"
                                 alt="Weatherdashboard" />
                         </a>
 
@@ -65,7 +65,7 @@ const Project = () => {
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <a href="https://tongtongding.github.io/05-Third-Party-APIs-HW/">
-                            <img src="./assets/WorkdaySchedule.png" className="img-fluid col-12 portfolioImage"
+                            <img src={process.env.PUBLIC_URL +"/assets/WorkdaySchedule.png"} className="img-fluid col-12 portfolioImage"
                                 alt="WorkdaySchedule" />
                         </a>
                         <div className="carousel-caption d-block bg-dark">
@@ -77,7 +77,7 @@ const Project = () => {
 
                     <div className="col-12 col-md-6">
                         <a href="https://tongtongding.github.io/04-Web-APIs-HW/">
-                            <img src="./assets/Codingquiz.png" className="img-fluid col-12 portfolioImage" alt="CodingQuiz" />
+                            <img src={process.env.PUBLIC_URL +"/assets/Codingquiz.png"} className="img-fluid col-12 portfolioImage" alt="CodingQuiz" />
                         </a>
                         <div className="carousel-caption d-block bg-dark">
                             <a href="https://github.com/tongtongding/04-Web-APIs-HW">

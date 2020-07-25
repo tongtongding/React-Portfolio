@@ -6,9 +6,9 @@ const Navbar = () => {
         <>
             <nav className="navbar flex-column flex-md-row navbar-dark bg-dark">
                 <div className="col-12 col-md-auto text-center">
-                    <a className="navbar-brand text-white" href="./index.html">
+                    <p className="navbar-brand text-white">
                         Tongtong Ding
-                    </a>
+                    </p>
                 </div>
                 <ul className="nav">
                     <li className="nav-item text-white">
