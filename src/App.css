@@ -1,3 +1,6 @@
-#root{
-    min-height: 100vh;
+body{
+   background-image: url(https://videohive.img.customer.envatousercontent.com/files/09ba2e8d-aa02-40c7-bb6e-f28144c13ed3/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=0c29ce636dc5b678038bb63e404aa704);
+
+   background-size: cover;
+   background-repeat: no-repeat;
 }
